@@ -10,7 +10,7 @@ markdown: redcarpet
 # so be sure to set them if your theme uses them.
 #
 title : OR
-tagline: Site Tagline
+tagline: Write the code, change the world!
 author :
   name : openroc
   email : openroc.at.gmail.com

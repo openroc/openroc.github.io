@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
+highlighter: false 
 markdown: redcarpet
 
 # Themes are encouraged to use these universal variables
@@ -102,13 +102,13 @@ JB :
     provider : false
     google :
         tracking_id : 'UA-61997250-1'
-    #getclicky :
-    #  site_id :
-    #mixpanel :
-    #    token : '_MIXPANEL_TOKEN_'
-    #piwik :
-    #    baseURL : '' # Piwik installation address (without protocol)
-    #    idsite : '1'                   # the id of the site on Piwik
+    getclicky :
+      site_id :
+    mixpanel :
+        token : '_MIXPANEL_TOKEN_'
+    piwik :
+        baseURL : '' # Piwik installation address (without protocol)
+        idsite : '1'                   # the id of the site on Piwik
 
   # Settings for sharing helper.
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
